@@ -1,4 +1,4 @@
-/* Work Sans Font */
+/* Work Sans Font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 /* Shared Styles */
@@ -44,9 +44,10 @@
 }
 
 .primary-btn:hover {
-    color: #534C64;
+    /* color: #534C64; */
     cursor: pointer;
-    box-shadow: 2px 2px 5px #534C64;
+    /* box-shadow: 2px 2px 5px #534C64; */
+    scale: 110%;
     padding: 20px 40px;
     border-radius: 48px;
 }
@@ -55,6 +56,18 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.logo-container:hover {
+    scale: 110%;
+}
+
+.logo-container > img {
+    cursor: pointer;
+}
+
+.logo-container > p {
+    cursor: pointer;
 }
 
 /* Header styles */
@@ -96,11 +109,14 @@ nav {
 }
 
 .nav-items-container>a:hover {
-    color: #534C64;
+    color: rgba(255, 66, 165, 1);
+    font-weight: bolder;
+    /* text-decoration: underline; */
     cursor: pointer;
-    box-shadow: 2px 2px 5px #534C64;
+    border: 1px solid rgba(255, 66, 165, 1);
+    /* box-shadow: 2px 2px 5px #534C64; */
     padding: 15px 20px;
-    border-radius: 40px;
+    border-radius: 10px;
 }
 
 
@@ -112,6 +128,11 @@ nav {
     padding: 18px;
     gap: 18px;
 
+}
+
+.follow-us-container:hover {
+    cursor: pointer;
+    scale: 110%;
 }
 
 /* banner styles */
