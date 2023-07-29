@@ -41,6 +41,7 @@
     font-size: 1.25rem;
     font-weight: 600;
     border: none;
+    transition: 0.5s ease-in-out;
 }
 
 .primary-btn:hover {
@@ -50,12 +51,14 @@
     scale: 110%;
     padding: 20px 40px;
     border-radius: 48px;
+    
 }
 
 .logo-container {
     display: flex;
     align-items: center;
     gap: 20px;
+    transition: 0.5s ease-in-out;
 }
 
 .logo-container:hover {
@@ -106,6 +109,7 @@ nav {
 
 .nav-items-container a {
     text-decoration: none;
+    transition: 0.5s ease-in-out;
 }
 
 .nav-items-container>a:hover {
@@ -127,12 +131,21 @@ nav {
     background: rgba(11, 2, 35, 0.10);
     padding: 18px;
     gap: 18px;
-
+    transition: 0.5s ease-in-out;
 }
 
 .follow-us-container:hover {
     cursor: pointer;
     scale: 110%;
+}
+
+.follow-us-container>a {
+    transition: 0.5s ease-in-out;
+}
+
+.follow-us-container>a:hover {
+    scale: 120%;
+    z-index: 100;
 }
 
 /* banner styles */
@@ -170,6 +183,18 @@ nav {
     align-items: center;
     gap: 12px;
     margin: 18px 0px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.icon-desc:hover {
+    scale: 110%;
+    margin-left: 10px;
+    border: 1px solid #F948B2;
+    border-radius: 10px;
+    background-color: #f948b20a;    
 }
 
 .banner-btn {
